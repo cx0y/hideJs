@@ -47,7 +47,7 @@ class hideJs {
     document.body.style.userSelect = "none";
   }
   disable(arr){
-    for(let i =0; i < arr.length; i++){
+    for(let i=0; i < arr.length; i++){
       if(arr[i] == "context"){
         this.hideContext();
       }
