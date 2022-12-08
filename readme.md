@@ -55,15 +55,16 @@ module.hideImageDrag();
 module.disableSelectAll();
 ```
 
->> 8. Disable All 
+
+>> 8. Disable Page Download (ctrl + s)
+```js
+module.disableDownloadPage();
+```
+
+>> 9. Disable All 
 ```js
 ...
 module.Neutral();
-```
-
->> 9. Disable Page Download (ctrl + s)
-```js
-module.disableDownloadPage();
 ```
 
 ---
