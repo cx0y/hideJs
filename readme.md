@@ -67,7 +67,7 @@ module.disableDownloadPage();
 ```
 
 ---
->> Coustom (Beta)
+>> Custom (Beta)
 
 ```js
 import { hideJs } from "./hideJs.mjs"
