@@ -1,5 +1,5 @@
 <h2 align="center">hideJs</h2>
-<h3 align="center">A Js Module, Used to hide your source</h3>
+<h3 align="center">A minimal Js Module, Used to hide your source code</h3>
 
 >> How to Use ?
 
@@ -61,8 +61,13 @@ module.disableSelectAll();
 module.Neutral();
 ```
 
+>> 9. Disable Page Download (ctrl + s)
+```js
+module.disableDownloadPage();
+```
+
 ---
->> Coustom 
+>> Coustom (Beta)
 
 ```js
 import { hideJs } from "./hideJs.mjs"
