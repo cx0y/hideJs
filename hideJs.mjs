@@ -4,6 +4,7 @@ class hideJs {
     this.hideDevTool();
     this.hideImageDrag();
     this.disableSelectAll();
+    this.disableDownloadPage();
   }
   hideContext() {
     document.addEventListener("contextmenu", (e) => e.preventDefault());
