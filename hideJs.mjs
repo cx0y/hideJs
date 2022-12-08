@@ -46,6 +46,11 @@ class hideJs {
   disableSelectAll(){
     document.body.style.userSelect = "none";
   }
+  disableDownloadPage(){
+    document.onkeydown = (e) => {
+      if (this.preS(e, "S")) return false;
+    };
+  }
   disable(arr){
     for(let i=0; i < arr.length; i++){
       if(arr[i] == "context"){
@@ -76,6 +81,9 @@ class hideJs {
   }
   press(e, keyCode) {
     return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+  }
+  preS(e, keyCode) {
+    return e.ctrlKey && e.keyCode === keyCode.charCodeAt(0);
   }
 }
 
